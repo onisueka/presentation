@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <style>
+        #container {
+            width: 1200px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .col-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        .center {
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Snake Snake Fish Fish</h1>
+    <div id="container">
+        <div class="row">
+            <div class="col-6">
+                <canvas id="canvas" width="600" height="630"></canvas>
+            </div>
+            <div class="col-6">
+                <h2 class="center">Code will show below if you get more 80+</h2>
+                <div id="coding"></div>
+            </div>
+        </div>
+    </div>
+    <script src="snake.min.js"></script>
+</body>
+</html>
